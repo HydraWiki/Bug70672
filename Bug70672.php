@@ -33,4 +33,6 @@ $wgExtensionMessagesFiles['Bug70672']		= "{$extDir}/Bug70672.i18n.php";
 $wgMessagesDirs['Bug70672']					= "{$extDir}/i18n";
 
 $wgAutoloadClasses['Bug70672Hooks']			= "{$extDir}/Bug70672.hooks.php";
+
+$wgHooks['PageContentSave'][]				= 'Bug70672Hooks::onPageContentSave';
 ?>

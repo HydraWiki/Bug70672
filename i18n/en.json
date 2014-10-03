@@ -3,5 +3,6 @@
 		"authors": []
 	},
 	"bug70672": "Bug70672",
-	"bug70672_description": "Mediawiki extension to server as a better fix for the security issue presented by bug 70672."
+	"bug70672_description": "Mediawiki extension to server as a better fix for the security issue presented by bug 70672.",
+	"disallowed_css_js": "Detected disallowed Javascript import: \"$1\""
 }
