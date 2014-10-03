@@ -4,10 +4,9 @@
  * Bug70672 Mediawiki Settings
  *
  * @author		Alexia E. Smith
- * @copyright	(c) 2014 Curse Inc.
- * @license		All Rights Reserved
+ * @license		LGPL v3.0
  * @package		Bug70672
- * @link		http://www.curse.com/
+ * @link		https://github.com/Alexia/Bug70672
  *
  **/
 
