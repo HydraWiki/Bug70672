@@ -19,7 +19,7 @@ class Bug70672Hooks {
 	static private $jsRegexes = [
 		'#behavior:.*?url\(.*?[;}]#is',
 		'#-moz-binding:.*?url\(.*?[;}]#is',
-		'#expression\(#is'
+		'#(?:expression|expreßion)\(#is'
 	];
 
 	/**
