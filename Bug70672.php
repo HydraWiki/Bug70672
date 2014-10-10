@@ -17,7 +17,8 @@ $credits = [
 	'path'				=> __FILE__,
 	'name'				=> 'Bug70672',
 	'author'			=> 'Alexia E. Smith',
-	'descriptionmsg'	=> 'bug70672_description',
+	'descriptionmsg'		=> 'bug70672_description',
+	'license-name'			=> 'LGPL-3.0',
 	'version'			=> '1.0'
 ];
 $wgExtensionCredits['other'][] = $credits;
@@ -29,9 +30,8 @@ $wgExtensionCredits['other'][] = $credits;
 $extDir = __DIR__;
 
 $wgExtensionMessagesFiles['Bug70672']		= "{$extDir}/Bug70672.i18n.php";
-$wgMessagesDirs['Bug70672']					= "{$extDir}/i18n";
+$wgMessagesDirs['Bug70672']			= "{$extDir}/i18n";
 
-$wgAutoloadClasses['Bug70672Hooks']			= "{$extDir}/Bug70672.hooks.php";
+$wgAutoloadClasses['Bug70672Hooks']		= "{$extDir}/Bug70672.hooks.php";
 
-$wgHooks['PageContentSave'][]				= 'Bug70672Hooks::onPageContentSave';
-?>
+$wgHooks['PageContentSave'][]			= 'Bug70672Hooks::onPageContentSave';

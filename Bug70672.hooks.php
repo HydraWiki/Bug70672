@@ -46,7 +46,7 @@ class Bug70672Hooks {
 
 			foreach (self::$jsRegexes as $regex) {
 				if (preg_match($regex, $text, $matches)) {
-					$status->fatal('disallowed_css_js', $matches[0]);
+					$status->fatal('bug70672_disallowedcssjs', $matches[0]);
 					return false;
 				}
 			}
@@ -54,4 +54,3 @@ class Bug70672Hooks {
 		return true;
 	}
 }
-?>

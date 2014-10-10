@@ -1,0 +1,10 @@
+{
+        "@metadata": {
+                "authors": [
+                        "Kghbln"
+                ]
+        },
+        "bug70672": "Bug70672",
+        "bug70672_description": "Verhindert das Speichern benutzerspezifischen CSS das JavaScript-Importe enthält",
+        "bug70672_disallowedcssjs": "Es wurde ein unzulässiger JavaScript-Import entdeckt: \"$1\". Diese Bearbeitung kann aufgrund von Sicherheitsbedenken nicht gespeichert werden."
+}
