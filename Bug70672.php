@@ -18,6 +18,7 @@ $credits = [
 	'name'				=> 'Bug70672',
 	'author'			=> 'Alexia E. Smith',
 	'descriptionmsg'		=> 'bug70672_description',
+	'license-name'			=> 'LGPL-3.0',
 	'version'			=> '1.0'
 ];
 $wgExtensionCredits['other'][] = $credits;
